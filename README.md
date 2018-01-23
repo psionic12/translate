@@ -5,3 +5,7 @@ This is a Chrome Extension used to translate an English word into Chinese. The t
 # How to import this into your Chrome
 
 go to chrome://extensions/ -> check the developer mode -> Load unpacked extension..., choose the project path.
+
+# How to change the shortcut
+
+By default, the shortcut for this Ctrl+Shift+Y (or Command+Shift+Y on Mac), you can change it in "Keyboard shortcuts" in chrome://extensions/
