@@ -1,5 +1,6 @@
 function translate(word) {
-	var opt = {type: "basic",title: word,message: meaning(word),iconUrl: "icon.png"}
+	var word_lower_case = word.toLowerCase()
+	var opt = {type: "basic",title: word_lower_case,message: meaning(word_lower_case),iconUrl: "icon.png"}
 	chrome.notifications.create("notificationName",opt,function(){});
 	setTimeout(function(){chrome.notifications.clear("notificationName",function(){});},5000);
 }
